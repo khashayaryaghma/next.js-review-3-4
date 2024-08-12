@@ -22,6 +22,11 @@ export default function Home() {
 
       {/* <Khashayar children={<List />} /> */}
       {/* it's same */}
+      {/* <Khashayar>
+        <List />
+      </Khashayar> */}
+
+
       <NewComponent>
         <List />
       </NewComponent>
