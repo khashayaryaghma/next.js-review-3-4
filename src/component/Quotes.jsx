@@ -1,8 +1,8 @@
 import getData from "@/utils/dataServices";
 
 async function Quotes() {
-  const { quotes } = await getData("https://dummyjson.com/quotes");
-
+  const data = await getData("https://dummyjson.com/quotes");
+data.quotes
   return (
     <ul>
       {quotes.map((el) => (
